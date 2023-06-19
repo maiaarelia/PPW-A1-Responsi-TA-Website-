@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+#imageCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  #imageCarousel .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #imageCarousel .carousel-inner .item {
+    text-align: center;
+  }
+  
+  #imageCarousel .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #imageCarousel .carousel-control {
+    width: 25%;
+    background: none;
+    opacity: 1;
+    color: #89cff0;
+  }
+  
+  #imageCarousel .carousel-control .glyphicon-chevron-left,
+  #imageCarousel .carousel-control .glyphicon-chevron-right {
+    font-size: 30px;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 80%);
+    padding: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  #imageCarousel .carousel-control .glyphicon-chevron-left:hover,
+  #imageCarousel .carousel-control .glyphicon-chevron-right:hover {
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 80%);
+  }
+
+  /* Info Website LeBeaute */
+  .pengertian{
+    font-family: Poppins;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    line-height: 29px; 
+    border-top: 2px solid #4196bd; 
+    border-bottom: 2px solid #5ba3c4;
+  }
+
+  .blockquote{
+    margin: 0;
+    font-family: Poppins;
+    padding: 1em 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    border-left: 5px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+.Judul-Kategori{
+    width: 100%; 
+    font-family: Poppins;
+    border-bottom: 4px solid #5ba3c4; 
+    margin-top: 80px;
+}
+
+/* Kategori */
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #888;
+}
+
+
+/*******************************/
+/********** Hero CSS ***********/
+/*******************************/
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 90px 0;
+    background-color: #89cff0;
+    background: #89cff0;
+    overflow: hidden;
+}
+
+.hero .container-fluid {
+    padding: 0;
+}
+
+.hero .hero-image {
+    position: relative;
+    text-align: right;
+}
+
+.hero .hero-image img {
+    padding-right: 140px;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.hero .hero-text {
+    position: relative;
+    font-family: Poppins;
+    padding-left: 75px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .hero-text h1 {
+    color: #343148;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero .hero-text p {
+    color: #343148;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero .hero-btn .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #F7CAC9;
+    background: #343148;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.hero .hero-btn .btn:hover {
+    color: #343148;
+    background: #ffffff;
+}
+
+.hero .hero-btn .btn:first-child {
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .hero .hero-text {
+        padding: 0 15px;
+    }
+    
+    .hero .hero-text h1 {
+        font-size: 35px;
+    }
+    
+    .hero .hero-text p {
+        font-size: 16px;
+    }
+    
+    .hero .hero-text .btn {
+        padding: 12px 30px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero .hero-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .hero .hero-text p {
+        font-size: 14px;
+    }
+    
+    .hero .hero-text .btn {
+        padding: 10px 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero .hero-text h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .hero .hero-text p {
+        font-size: 14px;
+    }
+    
+    .hero .hero-text .btn {
+        padding: 8px 10px;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}
+
+
+
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.about .section-header {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: center;
+    color: #369336;
+}
+
+.about .about-img {
+    position: relative;
+    height: 100%;
+
+}
+
+.about .about-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  
+  .about-text a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #45a945;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .plump{
+    color: #369336;
+  }
+  
+  .about-text a.btn:hover {
+    background-color: #c0392b;
+  }
+  
+
+@media (max-width: 767.98px) {
+    .about .about-img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.description {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+#video {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-grid img {
+    width: 50%;
+    height: auto;
+    padding-bottom: 35px;
+    justify-content: space-between;
+}

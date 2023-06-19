@@ -1,0 +1,90 @@
+
+/* body{
+	margin:0;
+	padding: 0;
+}
+.top{
+	background-color: #ff8d87;
+	color: #fff;
+}
+.judul{
+	font-size: 12pt;
+    padding: 10px;
+    font-weight: bold;
+}
+.link{
+	margin-top: 20px;
+} */
+
+/* Header Bawah */
+
+*{
+    font-family: Poppins;
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    border-radius: 0;
+    border: none;
+    font-family: Poppins;
+    background-color: #89cff0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.navbar .sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav li a {
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+.navbar .navbar-nav li a:hover {
+    color: black;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: black;
+    outline: none;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+.dropdown-menu a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+    color: black !important;
+    text-decoration: none;
+}
+

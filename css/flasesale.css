@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .Judul-Kategori {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-img-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .star {
+    color: #f8ce0b;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .product-quantity {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .product-action {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background-color: #4196bd;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #357a9d;
+  }
+  
+  

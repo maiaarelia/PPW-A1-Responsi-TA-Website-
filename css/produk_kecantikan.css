@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: Poppins;
+}
+
+.container10{
+    padding-bottom: 50px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-bottom: 20px;
+}
+
+.table-view {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust the max-width as needed */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-view table {
+  width: 100%;
+}
+
+.table-view table th,
+.table-view table td {
+  text-align: justify;
+}
+
+.table-view table th {
+  font-weight: bold;
+}
+
+.table-view table td img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
